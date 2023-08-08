@@ -62,7 +62,7 @@
 
     delete {
       bindings = <&kp DEL>;
-      key-positions = <32 33>;
+      key-positions = <11 10>;
     };
   };
 
@@ -113,10 +113,10 @@
 
     both {
       bindings = <
-&trans  &kp LG(N1)  &kp LG(NUMBER_2)  &kp LG(N3)  &kp LG(N4)  &bt BT_SEL 0    &bt BT_SEL 3  &trans  &trans  &trans  &trans    &rgb_ug RGB_COLOR_HSB(0,60,50)
-&trans  &kp LG(N5)        &kp LG(N6)  &kp LG(N6)  &kp LG(N7)  &bt BT_SEL 1    &bt BT_SEL 4  &trans  &trans  &trans  &trans  &rgb_ug RGB_COLOR_HSB(120,60,50)
-&trans  &kp LG(N8)        &kp LG(N0)      &trans      &trans  &bt BT_SEL 2      &bt BT_CLR  &trans  &trans  &trans  &trans  &rgb_ug RGB_COLOR_HSB(240,60,50)
-                                          &trans      &trans        &trans          &trans  &trans  &trans
+&trans  &kp LG(N1)  &kp LG(NUMBER_2)  &kp LG(N3)  &kp LG(N4)  &bt BT_SEL 0    &bt BT_SEL 3             &trans           &trans  &trans  &trans    &rgb_ug RGB_COLOR_HSB(0,60,50)
+&trans  &kp LG(N5)        &kp LG(N6)  &kp LG(N6)  &kp LG(N7)  &bt BT_SEL 1    &bt BT_SEL 4  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans  &rgb_ug RGB_COLOR_HSB(120,60,50)
+&trans  &kp LG(N8)        &kp LG(N0)      &trans      &trans  &bt BT_SEL 2      &bt BT_CLR             &trans           &trans  &trans  &trans  &rgb_ug RGB_COLOR_HSB(240,60,50)
+                                          &trans      &trans        &trans          &trans             &trans           &trans
       >;
     };
   };
